@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'war'
 }
 
 group 'net.rgsu.baranyuk.diploma'
@@ -16,5 +17,4 @@ dependencies {
 subprojects {
     task allDependencies(type: DependencyReportTask) {}
 }
-
 
